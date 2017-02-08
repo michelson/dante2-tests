@@ -303,7 +303,8 @@ class DemoApp extends React.Component {
 ReactDOM.render(
   <DemoApp
     content={demo}
-    config={ {} } 
+    config={ {debug: true, read_only: false} } 
+
   />,
   document.getElementById("app")
 )
