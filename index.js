@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Immutable from 'immutable';
 
 import {Dante, DanteEditor} from "Dante2/es/index.js";//'Dante2';
-import dantecss from 'Dante2/dist/DanteStyles.css';
+import dantecss from 'Dante2/dist/Dante2.css';
 
 import { Map, fromJS } from 'immutable'
 import DanteImagePopover from 'Dante2/es/components/popovers/image.js'
@@ -277,17 +278,17 @@ class DemoApp extends React.Component {
   }
 
   componentDidMount() {
-    /*
-      // simple implementation, use the js class
-
-      var article = new Dante({ 
-        el: "app", 
-        content: demo,
-        read_only: true,
-        debug: true
-      })
-      article.render()
-    */
+    
+    //  // simple implementation, use the js class
+    //
+    //  var article = new Dante({ 
+    //    el: "app", 
+    //    content: demo,
+    //    read_only: true,
+    //    debug: true
+    //  })
+    //  article.render()
+    
   }
 
   render(){
@@ -300,6 +301,8 @@ class DemoApp extends React.Component {
   }
 }
 
+
+
 ReactDOM.render(
   <DemoApp
     content={demo}
@@ -308,4 +311,5 @@ ReactDOM.render(
   />,
   document.getElementById("app")
 )
+
 

@@ -10,7 +10,7 @@
     "babel-preset-stage-0": "^6.0.15",
     "babel-preset-stage-2": "^6.18.0",
     "css-loader": "^0.26.1",
-    "dante2": "git://github.com/michelson/dante2.git#distribution",
+    "Dante2": "git://github.com/michelson/dante2.git#dante-vendors",
     "extract-text-webpack-plugin": "2.0.0-beta",
     "file-loader": "^0.10.0",
     "html-webpack-plugin": "^2.26.0",
@@ -27,7 +27,7 @@
   "dependencies": {
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
+    "babel-preset-react": "^6.23.0",
     "webpack-dev-server": "^2.3.0"
   }
-
 }
