@@ -1,9 +1,12 @@
+
+//import material from 'material-design-lite/material.min.css'
+//import material.min.js
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Immutable from 'immutable';
 
 import {Dante, DanteEditor} from "Dante2/es/index.js";//'Dante2';
-import dantecss from 'Dante2/dist/Dante2.css';
+import dantecss from 'Dante2/dist/DanteStyles.css';
 
 import { Map, fromJS } from 'immutable'
 import DanteImagePopover from 'Dante2/es/components/popovers/image.js'
@@ -300,7 +303,6 @@ class DemoApp extends React.Component {
     )
   }
 }
-
 
 
 ReactDOM.render(

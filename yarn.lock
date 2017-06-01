@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"Dante2@git://github.com/michelson/dante2.git#dante-vendors":
-  version "0.3.2"
-  resolved "git://github.com/michelson/dante2.git#8ddccb40bd93d4774b8379aa8563530bc8bc468f"
+"Dante2@git://github.com/michelson/dante2.git#master":
+  version "0.3.5"
+  resolved "git://github.com/michelson/dante2.git#0889fb3872074795bb1167dc8993f589cc8c7ad7"
   dependencies:
     axios "^0.15.2"
     babel-runtime "^6.11.6"
