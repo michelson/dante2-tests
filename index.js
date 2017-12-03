@@ -20,7 +20,7 @@ import PlaceholderBlock from 'Dante2/es/components/blocks/placeholder.js'
 
 import { 
   resetBlockWithType, 
-  addNewBlockAt } from 'Dante2/src/model/index.js'
+  addNewBlockAt } from 'Dante2/es/model/index.js'
 
 // create base element
 var g=document.createElement('div');
